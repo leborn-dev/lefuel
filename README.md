@@ -1,3 +1,7 @@
+> **Notice:** This is **LeFuel**, a [Leborn](https://github.com/leborn-dev) fork of FuelPHP. We are reviving this project for the AI era. See [`LEBORN.md`](./LEBORN.md) and [`NOTICE`](./NOTICE) for details.
+
+---
+
 # FuelPHP
 
 * Version: 1.8.2
