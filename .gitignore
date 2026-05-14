@@ -18,6 +18,12 @@ desktop.ini
 /composer.lock
 /fuel/vendor
 
+# composer binary (use system-installed composer instead)
+composer.phar
+
+# environment files
+.env
+
 # any of the fuel packages installed by default
 /docs/
 /fuel/core/
