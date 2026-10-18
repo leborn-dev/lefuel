@@ -15,6 +15,7 @@ require COREPATH.'bootstrap.php';
 
 // Add framework overload classes here
 \Autoloader::add_classes(array(
+	'Crypt' => APPPATH.'classes/crypt.php',
 	// Example: 'View' => APPPATH.'classes/myview.php',
 ));
 
