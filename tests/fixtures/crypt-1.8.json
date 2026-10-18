@@ -1,0 +1,15 @@
+{
+    "source": "https://github.com/fuel/core/blob/1.8.2/classes/crypt.php",
+    "source_sha256": "2339a4df0d51a79d3aeb7f57f56950ab30e0d202d53469328521db265b09c1be",
+    "plaintext_base64": "TGVGdWVsIDEuOCBzb2RpdW0gY29tcGF0aWJpbGl0eTog5pel5pys6KqeAGJpbmFyeQ==",
+    "sodium_key": "0101010101010101010101010101010101010101010101010101010101010101",
+    "sodium_ciphertext": "S:hkNDLc3lj-jfsFP1PdKh9N_tN4bAMdtHdrJy6jEbP8tPsn-TvsGYzv0tsAtvFclwKkxCC-N3HVWFvlNS8AFWRqO1DPonnAWbGGfP-Wwkw8-vPL46VIXYzwVSteXy_s-ArZnmLXWhYdKJuv06H4776p_bwt2TQHOdA7IIxwoeOLo2z6fxNM0awaKEmyLgtvUpY0T_uOoDqYmzdwvWxj-x4jFNXzGBX3RH7w==",
+    "legacy_source": "https://github.com/fuel/core/blob/1.8.2/tests/crypt.php",
+    "legacy_plaintext": "This is a string to encrypt",
+    "legacy_ciphertext": "LO01JUJcY4z-BiQeWuOMxaEl9JYJjmLeoZCLgXqMVmtZSXpwN0NPSnJIblRmV0VvZHJKZjUycE5NNWRPOU5EdWlxTjR3MnJMMUtJx",
+    "legacy_config": {
+        "crypto_key": "9Kgt0c4LIb1g8GIhyAjnEnuU",
+        "crypto_iv": "PuMQGc0vA-ykX_QShEKRg3B4",
+        "crypto_hmac": "Pfk4CY2qc_okomcUH8MuIG1M"
+    }
+}

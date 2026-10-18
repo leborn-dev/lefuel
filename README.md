@@ -4,7 +4,7 @@
 
 # FuelPHP
 
-* Version: 1.8.2
+* Framework: pinned official FuelPHP 1.9 development commits (see `composer.lock`)
 * [Website](https://fuelphp.com/)
 * [Release Documentation](https://fuelphp.com/docs)
 * [Release API browser](https://fuelphp.com/api)
@@ -14,9 +14,9 @@
 
 ## Description
 
-FuelPHP is a fast, lightweight PHP 5.4+ framework. In an age where frameworks are a dime a dozen, we believe that FuelPHP will stand out in the crowd. It will do this by combining all the things you love about the great frameworks out there, while getting rid of the bad.
+FuelPHP is a fast, lightweight PHP framework. In an age where frameworks are a dime a dozen, we believe that FuelPHP will stand out in the crowd. It will do this by combining all the things you love about the great frameworks out there, while getting rid of the bad.
 
-FuelPHP is fully PHP 7.3 compatible.
+The pinned official development packages provide phpseclib 3 support, which stable Fuel releases lack; their source commits are fixed in `composer.lock`. This fork requires PHP 8.2+ and current Composer 2. Run `composer install` and `composer test`. See [secure installation and compatibility notes](SECURE_INSTALL.md).
 
 ## More information
 

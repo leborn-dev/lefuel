@@ -117,7 +117,7 @@ $routerequest = function($request = null, $e = false)
 {
 	Request::reset_request(true);
 
-	$route = array_key_exists($request, Router::$routes) ? Router::$routes[$request]->translation : Config::get('routes.'.$request);
+	$route = array_key_exists((string) $request, Router::$routes) ? Router::$routes[(string) $request]->translation : Config::get('routes.'.$request);
 
 	if ($route instanceof Closure)
 	{

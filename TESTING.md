@@ -1,5 +1,9 @@
 # Testing FuelPHP
 
+Run `composer test` for this fork's dependency, HTTP, and cryptographic compatibility regressions. These tests need no PHPUnit installation. See [secure-install.md](SECURE_INSTALL.md) for prerequisites and coverage.
+
+The following section describes the inherited upstream PHPUnit suite. It uses the legacy `PHPUnit_Framework_TestCase` API and is separate from the maintained smoke tests. A bare successful exit from `php oil test` is not sufficient evidence that tests ran.
+
 FuelPHP uses [PHPUnit](https://github.com/sebastianbergmann/phpunit/) for it's Unit Testing needs. It must be installed for the tests to run.
 
 **NOTE: No code will be accepted without tests written.**
