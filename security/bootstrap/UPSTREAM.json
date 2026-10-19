@@ -1,0 +1,38 @@
+{
+  "upstream": {
+    "name": "bootstrap",
+    "version": "3.4.1",
+    "registry": "https://registry.npmjs.org/bootstrap/3.4.1",
+    "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.4.1.tgz",
+    "integrity": "sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==",
+    "shasum": "c3a347d419e289ad11f4033e3c4132b87c081d72",
+    "gitHead": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
+  },
+  "fork": "LeFuel asset distribution of the reviewed @leng/bootstrap security fork",
+  "advisories": [
+    "GHSA-vxmc-5x29-h64v",
+    "GHSA-q58r-hwc8-rm9j"
+  ],
+  "tests": [
+    "tests/bootstrap-security.test.mjs"
+  ],
+  "updatePolicy": "Compare each patched source and generated browser/minified entry against the recorded upstream tarball; rerun root regression and full build before updating. Restore registry packages only when all listed issues have an upstream fix.",
+  "distributionScope": {
+    "retained": "Complete public runtime/API and build sources, licenses and provenance; root security and compatibility tests exercise installed entrypoints.",
+    "omittedUnusedUpstreamDirectories": [
+      "grunt"
+    ],
+    "reason": "Upstream-only tests/examples/build-tool configuration are not used by this repository or by the package runtime. Old embedded framework copies are not needed to preserve benchmark execution or the Angular legacy jQuery matrix."
+  },
+  "securitySourceDiff": {
+    "file": "SECURITY.patch",
+    "sha256": "f031e4f692495af73ce99b94362183b7f66c2ec1abc036e11a234fd6ae31fc00",
+    "scope": "Runtime source changes against the integrity-verified upstream tarball; generated min/maps are rebuilt by scripts/rebuild-security-vendor.cjs. Manifest/provenance and unused upstream tree omissions are documented separately."
+  },
+  "assetHashes": {
+    "bootstrap.js": "fd995ef884a7d9d7c932450370a38618cbbf55a030afc30de3358ccfe3ff49f9",
+    "bootstrap.min.js": "c35e8f5b78b24f8fc4bd0073ff1194e0cbf3c050f95f8e4f7018f860886259ec",
+    "bootstrap.min.js.map": "d2f64a6d3740f958ce01b7c6dccab2fdc2268a763d94a5ac1ee065b74480cf1d"
+  },
+  "scope": "JavaScript assets only. Existing Bootstrap CSS is retained. Patched dist assets are byte-identical to the independently tested Leng fork; original MIT license and upstream source patch retained."
+}
